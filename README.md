@@ -1,42 +1,43 @@
+<p align="center">
+  <img width="200px" src="./assets/logo.png" />
+</p>
+
 # Photoship
 
-This project is all about manipulating images. **Photoship** is a revolutionary
-image processing tool which allows anyone to edit images in the most astounding
-ways!
+This project is all about manipulating images.
+
+**Photoship** is a revolutionary image processing tool which allows anyone to
+edit images in the most astounding ways!
 
 - Flip the image? No problem!
 - Make it black and white? Easy!
 - Use AI to give everyone facial tattoos? Planned for a future release!
 
-## Images as arrays
+## Usage
 
-In this project, images are represented as arrays. Every block of four elements
-represents the RGBA (red, blue, green, alpha) value of a single pixel in the
-image.
+Make sure you have `npm` and `node` installed. Clone the repo locally and run
+`npm install` to get the dependencies.
 
-```js
-const img = [120, 50, 20, 255, 116, 154, 200, 100]
-```
-
-The above image has exactly two pixels, one with RGBA of `(120, 50, 20, 255)`
-and the other with RGBA of `(116, 154, 200, 100)`.
-
-This library works by messing around with the pixels to achieve various effects.
-
-## Using the command line
-
-As you progress, the software should start working as intended!
-
-E.g. once you complete the `removeRed(rgb)` function, you should be able to run
+To use the app, place any image in the `img` directory. The image `cat.jpg` is
+provided as an example. Now, you can use the command line interface to process
+the image. Just make sure you're in the project root, and run
 
 ```bash
-node cli.js remove-red cat.jpg
+node cli.js strip-red cat.jpg
 ```
 
-and go to the `img` directory to see the output.
+Now check `img/output.png` for the result!
 
-Feel free to add your own images to the `img` directory and have a play around.
+For the full list of available commands, run
 
-## Next steps
+```bash
+node cli.js help
+```
 
-Head over to `TODO.md` and get cracking :smile:
+Oh... none of the other commands work yet? That's right! The project is under
+heavy development. Can you help?
+
+## Getting started
+
+If you'd like to contribute to this project, please head over to
+`CONTRIBUTING.md`!
