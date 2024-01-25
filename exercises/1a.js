@@ -7,5 +7,5 @@
  * @returns {number} The sum of the first and last elements.
  */
 export function firstAddLast(nums) {
-  // TODO
+  // TODO (write your code here!)
 }
