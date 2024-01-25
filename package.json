@@ -8,7 +8,9 @@
     "pship": "index.js"
   },
   "scripts": {
-    "test": "mocha ./tests"
+    "test": "mocha ./tests",
+    "test:1a": "mocha ./tests/exercise-1a.test.js",
+    "test:1b": "mocha ./tests/exercise-1b.test.js"
   },
   "keywords": [],
   "author": "",
