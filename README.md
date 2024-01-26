@@ -53,7 +53,8 @@ know, and some exercises for you to practice your skills.
 
 ### Working with arrays
 
-1. Read the docs on [working with arrays]().
+1. Read the docs on
+   [working with arrays](https://swe-docs.netlify.app/js/working-with-arrays.html).
 
 1. Attempt Exercise 1a. You'll find it in `exercises/1a.js`.
 
@@ -67,7 +68,8 @@ know, and some exercises for you to practice your skills.
 
 ### Array methods
 
-1. Read the docs on [array methods]().
+1. Read the docs on
+   [array methods](https://swe-docs.netlify.app/js/array-methods.html).
 
 1. Solve, commit and push Exercise 2a.
 
@@ -75,7 +77,8 @@ know, and some exercises for you to practice your skills.
 
 ### Working with strings
 
-1. Read the docs on [working with strings]().
+1. Read the docs on
+   [string methods](https://swe-docs.netlify.app/js/string-methods.html).
 
 1. Solve, commit and push Exercise 3a.
 
