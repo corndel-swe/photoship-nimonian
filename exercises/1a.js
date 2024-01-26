@@ -9,5 +9,5 @@
  * @returns {number} The sum of the first and last elements.
  */
 export function firstAddLast(nums) {
-  // TODO (write your code here!)
+  return nums[0] + nums[nums.length - 1]
 }
