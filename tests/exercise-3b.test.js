@@ -1,26 +1,28 @@
 import assert from 'assert'
-import { imageFiles } from '../exercises/exercise-3b.js'
+import { formatPrice } from '../exercises/3b.js'
 
-describe('imageFiles', () => {
-  it('should filter out non-image files and keep only .jpg and .png files', () => {
-    assert.deepStrictEqual(imageFiles(['bird.jpg', 'notes.txt', 'car.png']), [
-      'bird.jpg',
-      'car.png'
-    ])
+describe('formatPrice', () => {
+  it('should format the amount as a price with the currency symbol', () => {
+    assert.strictEqual(formatPrice(12.83795, '£'), '£12.84')
   })
 
-  it('should return the same array if it contains only .jpg and .png files', () => {
-    assert.deepStrictEqual(imageFiles(['photo.jpg', 'image.png']), [
-      'photo.jpg',
-      'image.png'
-    ])
+  it('should add trailing 0 if needed', () => {
+    assert.strictEqual(formatPrice(2.5, '$'), '$2.50')
   })
 
-  it('should return an empty array if no .jpg or .png files are present', () => {
-    assert.deepStrictEqual(imageFiles(['document.docx', 'script.js']), [])
+  it('should handle zero correctly', () => {
+    assert.strictEqual(formatPrice(0, '$'), '$0.00')
   })
 
-  it('should return an empty array for an empty input array', () => {
-    assert.deepStrictEqual(imageFiles([]), [])
+  it('should handle negative numbers', () => {
+    assert.strictEqual(formatPrice(-10.99, '€'), '€-10.99')
+  })
+
+  it('should format the price correctly with large numbers', () => {
+    assert.strictEqual(formatPrice(123456.789, '¥'), '¥123456.79')
+  })
+
+  it('should handle different currency symbols', () => {
+    assert.strictEqual(formatPrice(100, '₹'), '₹100.00')
   })
 })

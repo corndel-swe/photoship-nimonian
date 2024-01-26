@@ -1,12 +1,15 @@
+// https://swe-docs.netlify.app/js/string-methods.html#template-literals
+// https://swe-docs.netlify.app/js/string-methods.html#changing-case
+
 /**
- * The input is a string in the format "Lastname,Firstname"
- * This function returns a new string in the format "Firstname Lastname"
+ * Outputs a string saying "Hello, my name is NAME!" with
+ * the name in uppercase.
  *
- * e.g. "Doe,Jane" => "Jane Doe"
+ * e.g. ("abdi") => "Hello, my name is ABDI!"
  *
- * @param {string} lastfirst - The name in format "Doe,Jane"
- * @returns {string} The name in format "Jane Doe"
+ * @param {string} name - The name
+ * @returns {string} The greeting string with uppercase name interpolated
  */
-export function nameTag(lastfirst) {
+export function nameTag(name) {
   // TODO
 }

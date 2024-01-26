@@ -1,3 +1,5 @@
+// Read https://swe-docs.netlify.app/js/working-with-arrays.html first!
+
 /**
  * Returns the sum of the first and last elements of the array.
  *

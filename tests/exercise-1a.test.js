@@ -1,5 +1,5 @@
 import assert from 'assert'
-import { firstAddLast } from '../exercises/exercise-1a.js'
+import { firstAddLast } from '../exercises/1a.js'
 
 describe('firstAddLast', () => {
   it('should return the sum of the first and last elements in a multi-element array', () => {

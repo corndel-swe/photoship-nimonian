@@ -1,12 +1,15 @@
+// https://swe-docs.netlify.app/js/string-methods.html#formatting-numbers
+
 /**
- * Removes all other file types from the array and keeps only
- * .png and .jpg files.
+ * Formats the amount as a price, with the given currency symbol at the front
  *
- * e.g. ['bird.jpg', 'notes.txt', 'car.png'] => ['bird.jpg', 'car.png']
+ * e.g. (2.5, '$') => '$2.50'
+ * e.g. (12.83795, '£') => '£12.84'
  *
- * @param {string[]} filenames - An array of filenames
- * @returns {string[]} An array of only .jpg and .png files
+ * @param {number} amount - The amount of money
+ * @param {string} currency - The currency symbol
+ * @returns {string} currency The formatted number
  */
-export function imageFiles(filenames) {
+export function formatPrice(amount, currency) {
   // TODO
 }

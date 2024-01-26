@@ -1,5 +1,5 @@
 import assert from 'assert'
-import { getMiddle } from '../exercises/exercise-1b.js'
+import { getMiddle } from '../exercises/1b.js'
 
 describe('getMiddle', () => {
   it('should return middle elements of a multi-element array', () => {

@@ -1,27 +1,24 @@
 import assert from 'assert'
-import { filterConvertFiles } from '../exercises/exercise-2b.js'
+import { convertFilesizes } from '../exercises/2b.js'
 
-describe('filterConvertFiles', () => {
-  it('should filter out files smaller than 1000KB and convert the rest to MB', () => {
-    assert.deepStrictEqual(filterConvertFiles([1400, 500, 2100]), [1.4, 2.1])
+describe('convertFilesizes', () => {
+  it('should convert an array of file sizes from KB to MB', () => {
+    assert.deepStrictEqual(convertFilesizes([1400, 500, 2100]), [1.4, 0.5, 2.1])
   })
 
-  it('should convert all elements to MB when all are above 1000KB', () => {
-    assert.deepStrictEqual(
-      filterConvertFiles([1500, 2000, 2500]),
-      [1.5, 2.0, 2.5]
-    )
+  it('should handle an empty array', () => {
+    assert.deepStrictEqual(convertFilesizes([]), [])
   })
 
-  it('should return an empty array when all elements are below 1000KB', () => {
-    assert.deepStrictEqual(filterConvertFiles([500, 800, 900]), [])
+  it('should handle arrays with a single element', () => {
+    assert.deepStrictEqual(convertFilesizes([1000]), [1])
   })
 
-  it('should return an empty array for an empty array', () => {
-    assert.deepStrictEqual(filterConvertFiles([]), [])
+  it('should handle arrays with large numbers', () => {
+    assert.deepStrictEqual(convertFilesizes([1000000, 500000]), [1000, 500])
   })
 
-  it('should include files that are exactly 1000KB and convert them to MB', () => {
-    assert.deepStrictEqual(filterConvertFiles([1000, 2000, 3000]), [1, 2, 3])
+  it('should handle arrays with small numbers', () => {
+    assert.deepStrictEqual(convertFilesizes([10, 50]), [0.01, 0.05])
   })
 })
