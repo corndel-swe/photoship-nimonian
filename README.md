@@ -49,6 +49,19 @@ edit images in the most astounding ways!
 
 ## Deep dive
 
+```mermaid
+flowchart TD
+    A[fa:fa-book Read doc page]
+    B[fa:fa-pencil Attempt exercises]
+    C[fa:fa-check Run tests]
+    D[fa:fa-save Commit & push]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> A
+```
+
 Before working on the Photoship project, there are a few things we need to
 learn. There are some documentation pages which will teach you what you need to
 know, and some exercises for you to practice your skills.
