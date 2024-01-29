@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200px" src="./assets/logo.png" />
+  <img width="200px" src="assets/logo.png" />
 </p>
 
 # Photoship
@@ -15,7 +15,7 @@ edit images in the most astounding ways!
 
 ## Getting started
 
-1. Make sure you have Node, npm and git installed on your machine.
+1. Make sure you have node, npm and git installed on your machine.
 
 1. Clone the repository (i.e. download it), so you have a copy on your machine.
    Open a terminal where you'd like the project's folder to be downloaded to,
@@ -25,9 +25,11 @@ edit images in the most astounding ways!
    git clone <your-repository-url>
    ```
 
-   You should be able to copy and paste your repository url from the web
-   browser. You can also get it by clicking on the green button to the top right
-   that says `< > Code`.
+   You should be able to copy and paste your repository url from the repo home
+   page github.com. You can also get it by clicking on the green button to the
+   top right that says `< > Code`.
+
+   ![Alt text](assets/screenshot.png)
 
 1. Once cloned, open a terminal in the project root folder, and run
 
