@@ -71,13 +71,16 @@ know, and some exercises for you to practice your skills.
 1. Read the docs on
    [working with arrays](https://swe-docs.netlify.app/js/working-with-arrays.html).
 
-1. Attempt Exercise 1a. You'll find it in `exercises/1a.js`.
+1. Complete Exercise 1a:
 
-1. Run `npm run test:1a` in the terminal to see if you got it right!
+   - You'll find it in `exercises/1a.js`.
 
-1. Once you pass the tests, type `git commit -am "Solves 1a"` in the terminal
-   and hit enter to commit your solution. Now type `git push` to sync your
-   changes to github.
+   - Run `npm run test:1a` in the terminal to see if you got it right!
+
+   - Once you pass the tests, type `git commit -am "Solves 1a"` in the terminal
+     and hit enter to commit your solution.
+
+   - Now type `git push` to sync your changes to github.
 
 1. Do the same for Exercise 1b.
 
