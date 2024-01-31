@@ -36,7 +36,7 @@ Can you have a go at figuring this out? I think you need to look in
 
 When an image is modified and the output is saved, it would be great if a
 message was logged in the terminal so the user knows where to find it. Maybe
-something like `"Great! Out put is saved in img/cat-output.jpg"`?
+something like `"Great! Output is saved in img/cat-output.jpg"`?
 
 You probably need to take a look at `lib/converter.js` to find out where to put
 this.
