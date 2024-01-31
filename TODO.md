@@ -2,8 +2,6 @@
 
 ## High priority
 
-- [ ] Complete `lib > pixels > stripBlue()`
-
 - [ ] Complete `lib > pixels > stripGreen()`
 
 - [ ] Complete `lib > pixels > stripBlue()`
