@@ -1,6 +1,6 @@
 # Contributing
 
-Before contributing, please make sure you've completed the deep dive exercises!
+Before contributing, please make sure you've completed the deep dive exercises.
 
 ## Workshop
 
