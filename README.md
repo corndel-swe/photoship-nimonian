@@ -15,7 +15,7 @@ edit images in the most astounding ways!
 
 ## Getting started
 
-1. Make sure you have node, npm and git installed on your machine.
+1. Make sure you have [node, npm](https://swe-docs.netlify.app/js/installation.html) and git installed on your machine.
 
 1. Clone the repository (i.e. download it), so you have a copy on your machine.
    Open a terminal where you'd like the project's folder to be downloaded to,
