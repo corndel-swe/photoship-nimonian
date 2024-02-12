@@ -51,10 +51,10 @@ edit images in the most astounding ways!
 
 ```mermaid
 flowchart TD
-    A[fa:fa-book Read doc page]
-    B[fa:fa-pencil Attempt exercises]
-    C[fa:fa-check Run tests]
-    D[fa:fa-save Commit & push]
+    A[Read doc page]
+    B[Attempt exercises]
+    C[Run tests]
+    D[Commit & push]
 
     A --> B
     B --> C
