@@ -60,7 +60,7 @@ program
 program
   .command('adjust-brightness <filename> <brightness>')
   .description('Adjust the brightness')
-  .action(filename =>
+  .action((filename, brightness) =>
     convertRGB(filename, rgb => pixels.adjustBrightness(rgb, brightness))
   )
 
