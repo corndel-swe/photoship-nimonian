@@ -46,8 +46,8 @@ program
 program
   .command('color-channel <filename> <color>')
   .description('Get the color channel')
-  .action(filename =>
-    convertRGB(filename, rgb => pixels.colourChannel(rgb, color))
+  .action((filename, color) =>
+    convertRGB(filename, rgb => pixels.colorChannel(rgb, color))
   )
 
 // Sepia
