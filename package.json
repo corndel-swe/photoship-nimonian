@@ -10,7 +10,11 @@
   "scripts": {
     "test": "mocha ./tests",
     "test:1a": "mocha ./tests/exercise-1a.test.js",
-    "test:1b": "mocha ./tests/exercise-1b.test.js"
+    "test:1b": "mocha ./tests/exercise-1b.test.js",
+    "test:2a": "mocha ./tests/exercise-2a.test.js",
+    "test:2b": "mocha ./tests/exercise-2b.test.js",
+    "test:3a": "mocha ./tests/exercise-3a.test.js",
+    "test:3b": "mocha ./tests/exercise-3b.test.js"
   },
   "keywords": [],
   "author": "",
