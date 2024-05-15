@@ -89,7 +89,7 @@ know, and some exercises for you to practice your skills.
 ### Array methods
 
 1. Read the docs on
-   [push and pop](https://swe-docs.netlify.app/js/array-methods.html).
+   [push and pop](https://swe-docs.netlify.app/js/array-push-pop.html).
 
 1. Solve, commit and push Exercise 2a.
 
