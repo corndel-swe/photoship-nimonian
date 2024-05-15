@@ -1,4 +1,4 @@
-// https://swe-docs.netlify.app/js/working-with-arrays.html#slicing-an-array
+// https://tech-docs.corndel.com/js/array-slice.html
 
 /**
  * Returns the middle elements of the array, without the first and last
