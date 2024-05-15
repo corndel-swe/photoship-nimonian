@@ -69,7 +69,7 @@ know, and some exercises for you to practice your skills.
 ### Working with arrays
 
 1. Read the docs on
-   [working with arrays](https://swe-docs.netlify.app/js/working-with-arrays.html).
+   [array basics](https://tech-docs.corndel.com/js/arrays.html).
 
 1. Complete Exercise 1a:
 
@@ -82,21 +82,25 @@ know, and some exercises for you to practice your skills.
 
    - Now type `git push` to sync your changes to github.
 
-1. Do the same for Exercise 1b.
+1. Read the docs on [array slicing](https://tech-docs.corndel.com/js/array-slice.html).
+  
+1. Solve, commit and push Exercise 1b.
 
 ### Array methods
 
 1. Read the docs on
-   [array methods](https://swe-docs.netlify.app/js/array-methods.html).
+   [push and pop](https://swe-docs.netlify.app/js/array-methods.html).
 
 1. Solve, commit and push Exercise 2a.
+
+1. Read the docs on [array map](https://tech-docs.corndel.com/js/array-map.html).
 
 1. Solve, commit and push Exercise 2b.
 
 ### Working with strings
 
 1. Read the docs on
-   [string methods](https://swe-docs.netlify.app/js/string-methods.html).
+   [string formatting](https://tech-docs.corndel.com/js/string-formatting.html).
 
 1. Solve, commit and push Exercise 3a.
 
