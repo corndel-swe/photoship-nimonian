@@ -1,4 +1,4 @@
-// https://swe-docs.netlify.app/js/array-methods.html#transforming-all-items-in-an-array
+// https://tech-docs.corndel.com/js/array-map.html
 
 /**
  * An array of numbers representing filesize in KB is passed in.
