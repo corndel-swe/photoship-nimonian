@@ -1,5 +1,4 @@
-// https://swe-docs.netlify.app/js/string-methods.html#template-literals
-// https://swe-docs.netlify.app/js/string-methods.html#changing-case
+// https://tech-docs.corndel.com/js/string-formatting.html
 
 /**
  * Outputs a string saying "Hello, my name is NAME!" with
