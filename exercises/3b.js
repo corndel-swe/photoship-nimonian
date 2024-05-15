@@ -1,4 +1,4 @@
-// https://swe-docs.netlify.app/js/string-methods.html#formatting-numbers
+// https://tech-docs.corndel.com/js/string-formatting.html
 
 /**
  * Formats the amount as a price, with the given currency symbol at the front
