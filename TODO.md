@@ -1,5 +1,9 @@
 # Todo
 
+> [!TIP]
+>
+> Replace `- [ ]` with `- [x]` in the list to mark an item as "done".
+
 ## High priority
 
 - [ ] Complete `lib > pixels > stripGreen()`

@@ -4,8 +4,6 @@
 
 # Photoship
 
-This project is all about manipulating images.
-
 **Photoship** is a revolutionary image processing tool which allows anyone to
 edit images in the most astounding ways!
 
@@ -15,39 +13,42 @@ edit images in the most astounding ways!
 
 ## Getting started
 
-1. Make sure you have [node, npm](https://swe-docs.netlify.app/js/installation.html) and git installed on your machine.
+1. Make sure your machine is set up according to the instructions with
+
+   - [bash](https://tech-docs.corndel.com/bash/)
+   - [vscode](https://tech-docs.corndel.com/vscode/)
+   - [git](https://tech-docs.corndel.com/git/)
+   - [node & npm](https://tech-docs.corndel.com/js/installation.html)
 
 1. Clone the repository (i.e. download it), so you have a copy on your machine.
-   Open a terminal where you'd like the project's folder to be downloaded to,
-   and run
 
-   ```bash
-   git clone <your-repository-url>
-   ```
-
-   You should be able to copy and paste your repository url from the repo home
-   page github.com. You can also get it by clicking on the green button to the
-   top right that says `< > Code`.
-
-   ![Alt text](assets/screenshot.png)
-
-1. Once cloned, open a terminal in the project root folder, and run
+1. Once cloned, open a terminal in the project folder, and run
 
    ```bash
    npm install
    ```
 
-   to get the dependencies.
+   to install dependencies.
 
-   You should see some output in the terminal saying the packages have been
-   audited. If you've got this far, great! You're on track.
+## Running tests
 
-   If you see a message about "vulnerabilities", don't worry. We aren't
-   deploying our code. This is something we'll talk about later.
+You can test exercises individually using commands like
 
-1. Get started with the deep dive below and happy learning!
+```bash
+npm run test:1a
+```
+
+or you can run all tests at once using
+
+```bash
+npm run test
+```
 
 ## Deep dive
+
+Before working on the Photoship project, there are a few things we need to
+learn. There are some documentation pages which will teach you what you need to
+know, and some exercises for you to practice your skills.
 
 ```mermaid
 flowchart TD
@@ -61,10 +62,6 @@ flowchart TD
     C --> D
     D --> A
 ```
-
-Before working on the Photoship project, there are a few things we need to
-learn. There are some documentation pages which will teach you what you need to
-know, and some exercises for you to practice your skills.
 
 ### Working with arrays
 
@@ -82,8 +79,9 @@ know, and some exercises for you to practice your skills.
 
    - Now type `git push` to sync your changes to github.
 
-1. Read the docs on [array slicing](https://tech-docs.corndel.com/js/array-slice.html).
-  
+1. Read the docs on
+   [array slicing](https://tech-docs.corndel.com/js/array-slice.html).
+
 1. Solve, commit and push Exercise 1b.
 
 ### Array methods
@@ -93,7 +91,8 @@ know, and some exercises for you to practice your skills.
 
 1. Solve, commit and push Exercise 2a.
 
-1. Read the docs on [array map](https://tech-docs.corndel.com/js/array-map.html).
+1. Read the docs on
+   [array map](https://tech-docs.corndel.com/js/array-map.html).
 
 1. Solve, commit and push Exercise 2b.
 
