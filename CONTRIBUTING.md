@@ -15,7 +15,7 @@ green, blue) values of the pixel.
 
 If you have successfully run `npm install`, you should be able to process an
 image already. Notice that `cat.jpg` is in the `img` folder. Let's remove all
-the red from the image!
+the red from the image.
 
 Open a terminal in the root of the project and run
 
